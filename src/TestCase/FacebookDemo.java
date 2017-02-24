@@ -15,7 +15,7 @@ public class FacebookDemo {
 		
 		driver.get("https://www.facebook.com");
 		
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		
 		driver.findElement(By.id("email")).sendKeys("hellomohuitjhsjh");
 		
